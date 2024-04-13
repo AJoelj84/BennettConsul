@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <div>
-        <h1 class ='topbar'>Dr. John Bennett<br></br>Consultation Services<Navigation/></h1>
+        <h1 class ='topbar'>Dr. Allen Bennett Ph.D.<br></br>Consultation Services<Navigation/></h1>
         <Routes>
           <Route path = "/Home" element={<Home/>} exact />
           <Route path = "/Biography" element={<Biography/>} />
