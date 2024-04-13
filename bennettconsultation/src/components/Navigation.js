@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Navigation(){
     return(
-        <div>
+        <div class="nav">
            <Link to='/Home' class ='link'>Home</Link>
            <Link to='/Publications' class ='link'>Publications</Link>
            <Link to='/Services' class ='link'>Services</Link>

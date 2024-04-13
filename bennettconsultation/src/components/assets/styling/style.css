@@ -1,8 +1,29 @@
 .topbar{
-    background: linear-gradient(to right, #ABD1FF,#a6c2e4,#a3b5ca,#b2c5db,#aab2be );
-    padding: 40px;
+    background: linear-gradient(to bottom, #5a6a7e,#9dbee6,#f1f8ff );
+    padding: 70px;
 }
 
 .home{
     color: black;
+}
+
+.publication{
+    text-align: center;
+    
+}
+
+.publication a{
+    display: block;
+    margin-top: 30px;
+}
+
+.nav{
+    float: right;
+    
+    font-size: 30px;
+}
+
+.link{
+    padding: 20px;
+    margin-top: -30px;
 }
