@@ -1,29 +1,49 @@
-.topbar{
-    background: linear-gradient(to bottom, #5a6a7e,#9dbee6,#f1f8ff );
-    padding: 80px;
+.topbar {
+    background: linear-gradient(to bottom, #5a6a7e, #9dbee6, #f1f8ff);
+    padding: 60px;
 }
 
-.home{
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.home {
     color: black;
 }
 
-.publication{
+.publication {
     text-align: center;
     
 }
 
-.publication a{
+.publication a {
     display: block;
-    margin-top: 30px;
-}
-
-.nav{
-    float: right;
+    text-decoration: none;
     
-    font-size: 30px;
 }
 
-.link{
-    padding: 20px;
+.nav {
+    float: right;
+    font-size: 30px;
+
+}
+
+.link {
+    padding: 10px;
+    background: none;
+    border: 2px solid transparent;
+    color: black;
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-width: 3px;
     margin-top: -30px;
 }
+
