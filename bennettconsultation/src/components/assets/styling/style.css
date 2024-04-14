@@ -79,4 +79,12 @@
 .card{
     width: 30%;
     margin: 50px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.card-container{
+    margin-left: 20%;
 }

@@ -6,7 +6,7 @@ function BusDev(){
         
         <div className='sedan-regular'>
             <Services/>
-            <section className='card-containecard-container row row-cols-sm-2 g-3'>
+            <section className='card-container row row-cols-sm-2 g-3'>
             <p className='card'>
                 <h1 className='busheader'>Market Research and Analysis</h1>
                 Conduct comprehensive market research to identify 
