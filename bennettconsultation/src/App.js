@@ -22,7 +22,8 @@ function App() {
       <div>
         <h1 className='sedan-regular topbar'>Dr. Allen Bennett Ph.D.<br></br>Consultation Services<Navigation/></h1>
         <Routes>
-          <Route path = "/Home" element={<Home/>} exact />
+          <Route path = "/" element={<Home/>} exact />
+          <Route path = "/Home" element = {<Home/>}/>
           <Route path = "/Biography" element={<Biography/>} />
           <Route path = "/Contact" element={<Contact/>} />
           <Route path = "/Publications" element={<Publications/>} />
