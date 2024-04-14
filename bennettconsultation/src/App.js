@@ -9,6 +9,11 @@ import Biography from './components/pages/Biography';
 import Contact from './components/pages/Contact';
 import Publications from './components/pages/Publications';
 import Services from './components/pages/Services';
+import BusDev from './components/pages/ServPages/BusDev';
+import ContROIS from './components/pages/ServPages/ContROIS';
+import ExpDesInt from './components/pages/ServPages/ExpDesInt';
+import LifeScSaaS from './components/pages/ServPages/LifeScSaaS';
+import ToxSD from './components/pages/ServPages/ToxSD';
 
 
 function App() {
@@ -22,6 +27,11 @@ function App() {
           <Route path = "/Contact" element={<Contact/>} />
           <Route path = "/Publications" element={<Publications/>} />
           <Route path = "/Services" element={<Services/>} />
+          <Route path = "/BusDev" element ={<BusDev/>}/>
+          <Route path = "/ContROIS" element ={<ContROIS/>}/>
+          <Route path = "/ExpDesInt" element ={<ExpDesInt/>}/>
+          <Route path = "/LifeScSaaS" element ={<LifeScSaaS/>}/>
+          <Route path = "/ToxSD" element ={<ToxSD/>}/>
         </Routes>
       </div>
     </Router>
