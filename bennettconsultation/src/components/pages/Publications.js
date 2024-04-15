@@ -1,3 +1,5 @@
+// Professional Publications Page
+
 import React from 'react';
 
 function Publications(){

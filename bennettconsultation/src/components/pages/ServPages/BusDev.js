@@ -1,5 +1,8 @@
+// Business Development Page with all offered services and Brief Explanations
+
 import React from 'react';
 import Services from '../Services';
+
 function BusDev(){
     return(
 

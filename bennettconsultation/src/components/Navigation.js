@@ -1,3 +1,5 @@
+// All Navigation Bar buttons
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './assets/styling/style.css';
