@@ -14,6 +14,7 @@ import ContROIS from './components/pages/ServPages/ContROIS';
 import ExpDesInt from './components/pages/ServPages/ExpDesInt';
 import LifeScSaaS from './components/pages/ServPages/LifeScSaaS';
 import ToxSD from './components/pages/ServPages/ToxSD';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path = "/LifeScSaaS" element ={<LifeScSaaS/>}/>
           <Route path = "/ToxSD" element ={<ToxSD/>}/>
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

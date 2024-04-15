@@ -3,6 +3,11 @@
     padding: 60px;
 }
 
+.footer{
+    background: linear-gradient(to top, #5a6a7e, #9dbee6, #f1f8ff);
+    padding: 60px;
+}
+
 .sedan-regular {
     font-family: "Sedan", serif;
     font-weight: 700;
