@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <div> 
-        <h1 className='sedan-regular topbar'>Dr. Allen Bennett Ph.D.<br></br>Consultation Services<Navigation/></h1>
+        <h1 className='sedan-regular topbar'>Dr. Allen Bennett Ph.D. <br></br>Consultation Services<Navigation/></h1>
 
         <section className='background container'>
 

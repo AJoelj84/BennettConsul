@@ -1,13 +1,14 @@
 /* Top and Bottom Navigation */
 .topbar {
-    background: linear-gradient(to bottom, #5a6a7e, #9dbee6, #dee8ee, rgb(233, 238, 247));
+    background: linear-gradient(to bottom, #5a6a7e, #9dbee6, #f3f3f3);
     padding: 60px;
+    margin-bottom: -8px;
 }
 
 .footer{
     background: linear-gradient(to top, #5a6a7e, #9dbee6, #e7ebee);
     padding-top: 100px;
-    margin-left: -15px;
+    margin-left: -12px;
     font-size: x-large;
     margin-top: auto;
 }
@@ -15,7 +16,7 @@
 /* Background control */
 .background{
     background-image: url('../images/chem structure background.jpg');
-    background-size: cover;  
+    background-size: auto;  
 }
 
 .container{
@@ -36,13 +37,12 @@
 
 .home {
     color: black;
-    height: 800px;
 }
 
 /* Publication Page Link Control */
-.publication {
+.publicationleft {
     text-align: center;
-    
+    margin-top: 30px;
 }
 
 .publication a {
@@ -50,6 +50,8 @@
     text-decoration: none;
     
 }
+
+
 
 /* Styling for Navigation Controls on Top Right of page */
 .nav {
@@ -107,7 +109,7 @@
     margin-left: 50%;
 }
 
-.card{
+.servcard{
     width: 40%;
     height: 200px;
     margin: 50px;
@@ -120,4 +122,23 @@
 
 .card-container{
     margin-left: 10%;
+}
+
+.cardleft{
+    width: 40%;
+    margin-left: 45%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border-color: #768aa1;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.cardright{
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 10%;
+    border-color: #5a6a7e;
+    border-width: 5px;
+    border-radius: 10px;
 }
