@@ -114,13 +114,13 @@
 }
 
 .busleft{
-    margin-left: 15%;
+    margin-left: 10%;
     padding-top: 30px;
     font-size: 20px;
 }
 
 .busright{
-    margin-left: 45%;
+    margin-left: 40%;
     padding-top: 40px;
     font-size: 20px;
 }
@@ -131,24 +131,35 @@
 }
 
 .cardleft{
-    width: 50%;
-    margin-left: 45%;
-    margin-bottom: 10%;
-    margin-top: 10%;
-    border-color: #768aa1;
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-color: #8fa3bb;
     border-width: 5px;
     border-radius: 10px;
     padding: 10px;
+    font-size: 25px;
+    background-color: #94aac5;
 }
 
 .cardright{
-    width: 50%;
-    margin-left: 10%;
-    margin-top: 10%;
-    border-color: #5a6a7e;
+    width: 60%;
+    margin-left: 6%;
+    margin-top: 30%;
+    border-color: #8fa3bb;
     border-width: 5px;
     border-radius: 10px;
     padding: 10px;
+    font-size: 25px;
+    background-color: #94aac5;
+}
+
+.cardimg{
+    width: 60%;
+}
+
+.cardimgright{
+    width: 70%;
 }
 
 /* Services Underline button control */
