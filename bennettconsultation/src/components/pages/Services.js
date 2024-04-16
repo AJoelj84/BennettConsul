@@ -9,11 +9,11 @@ function Services(){
        
         <div class="servnav sedan-regular">
            
-           <Link to='/BusDev' class ='btn custombtn'>Business Development</Link>
-           <Link to='/ToxSD' class ='btn custombtn'>Toxicology Study Design</Link>
-           <Link to='/ExpDesInt' class ='btn custombtn'>Experimental Design and Interpretation</Link>
-           <Link to='/LifeScSaaS' class ='btn custombtn'>Life Science and SaaS Marketing</Link>
-           <Link to='/ContROIS' class ='btn custombtn'>Contract Research Organization<br></br>Identification and Sourcing</Link>
+           <Link to='/BusDev' class ='button'>&#9204; Business Development &#9205;</Link>
+           <Link to='/ToxSD' class ='button'>&#9204; Toxicology Study Design &#9205;</Link>
+           <Link to='/ExpDesInt' class ='button'>&#9204; Experimental Design and Interpretation &#9205;</Link>
+           <Link to='/LifeScSaaS' class ='button'>&#9204;Life Science and SaaS Marketing &#9205;</Link>
+           <Link to='/ContROIS' class ='button'><span>&#9204; Contract Research Organization Identification and Sourcing &#9205;</span></Link>
         </div>
         
     );
