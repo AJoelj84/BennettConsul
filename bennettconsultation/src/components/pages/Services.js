@@ -8,6 +8,7 @@ function Services(){
     return(
        
         <div class="servnav sedan-regular">
+           
            <Link to='/BusDev' class ='btn btn-outline-dark'>Business Development</Link>
            <Link to='/ToxSD' class ='btn btn-outline-dark'>Toxicology Study Design</Link>
            <Link to='/ExpDesInt' class ='btn btn-outline-dark'>Experimental Design and Interpretation</Link>

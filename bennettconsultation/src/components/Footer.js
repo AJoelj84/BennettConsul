@@ -7,7 +7,7 @@ function Footer(){
 
         
         <div className='footer'>
-           
+           <p>things stuff</p>
         </div>
     );
 }

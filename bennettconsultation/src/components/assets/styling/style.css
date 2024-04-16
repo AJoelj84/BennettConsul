@@ -1,13 +1,30 @@
 /* Top and Bottom Navigation */
 .topbar {
-    background: linear-gradient(to bottom, #5a6a7e, #9dbee6, #f1f8ff);
+    background: linear-gradient(to bottom, #5a6a7e, #9dbee6, #dee8ee, rgb(233, 238, 247));
     padding: 60px;
 }
 
 .footer{
-    background: linear-gradient(to top, #5a6a7e, #9dbee6, #f1f8ff);
-    padding: 60px;
+    background: linear-gradient(to top, #5a6a7e, #9dbee6, #e7ebee);
+    padding-top: 100px;
+    margin-left: -15px;
+    font-size: x-large;
+    margin-top: auto;
 }
+
+/* Background control */
+.background{
+    background-image: url('../images/chem structure background.jpg');
+    background-size: cover;  
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+}
+
 
 
 /* Font control from Google Fonts */
@@ -19,6 +36,7 @@
 
 .home {
     color: black;
+    height: 800px;
 }
 
 /* Publication Page Link Control */
@@ -42,6 +60,7 @@
 .servnav{
     text-align: center;
     padding-top: 20px;
+    
 }
 
 .link {

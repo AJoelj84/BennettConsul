@@ -21,7 +21,7 @@ function App() {
       <div> 
         <h1 className='sedan-regular topbar'>Dr. Allen Bennett Ph.D.<br></br>Consultation Services<Navigation/></h1>
 
-        <section>
+        <section className='background container'>
 
         <Routes>
           <Route path = "/" element={<Home/>} exact />
