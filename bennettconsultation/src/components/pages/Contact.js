@@ -1,3 +1,5 @@
+// Contact and Scheduling Page
+
 import React from 'react';
 
 function Contact(){

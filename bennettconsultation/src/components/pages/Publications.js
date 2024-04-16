@@ -1,3 +1,5 @@
+// Publications Page
+
 import React from 'react';
 import NatureCom from '../assets/images/naturecom.jpg';
 import ASPET from '../assets/images/aspet.jpg';
@@ -15,7 +17,6 @@ function Publications() {
                         <div className='card cardleft'>
                             The choline transporter Slc44a2 controls platelet activation and thrombosis by regulating mitochondrial function
                             <img src={NatureCom} className="cardimg" alt="nature communications logo" />
-                            
                         </div>
                     </a>
                 </div>
@@ -59,8 +60,7 @@ function Publications() {
                     <a class='link card-body' href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0133791">
                         <div className='card cardleft'>
                             Deficiency in Aryl Hydrocarbon Receptor (AHR) Expression throughout Aging Alters Gene Expression Profiles in Murine Long-Term Hematopoietic Stem Cells
-                            <img src={PLOSONE} className="cardimg" alt="PLOS ONE" />
-                            
+                            <img src={PLOSONE} className="cardimg" alt="PLOS ONE" />  
                         </div>
                     </a>
                 </div>

@@ -1,3 +1,5 @@
+// Welcome/Home/Landing Page
+
 import React from 'react';
 
 function Home(){

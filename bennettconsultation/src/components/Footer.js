@@ -1,4 +1,4 @@
-// Page Footer
+// Page Footer--Needs Cleaned Up and determination of what to put here
 
 import React from 'react';
 

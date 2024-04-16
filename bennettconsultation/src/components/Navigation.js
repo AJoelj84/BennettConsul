@@ -1,4 +1,4 @@
-// All Navigation Bar buttons
+// Navigation Bar Controls
 
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -6,8 +6,6 @@ import './assets/styling/style.css';
 
 function Navigation(){
     return(
-
-        
         <div class="nav sedan-regular">
            <Link to='/Home' class ='btn custombtn'>&#127960; Home</Link>
            <Link to='/Publications' class ='btn custombtn'>&#128366; Publications</Link>

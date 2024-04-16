@@ -1,3 +1,5 @@
+// Main React Application Page, Contains all imports for Pages/SubPages and framework for page
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -20,29 +22,24 @@ function App() {
     <Router>
       <div> 
         <h1 className='sedan-regular topbar'>Dr. Allen Bennett Ph.D. <br></br>Consultation Services<Navigation/></h1>
-
         <section className='background container'>
+          <Routes>
+            <Route path = "/" element={<Home/>} exact />
+            <Route path = "/Home" element = {<Home/>}/>
+            <Route path = "/Biography" element={<Biography/>} />
+            <Route path = "/Contact" element={<Contact/>} />
+            <Route path = "/Publications" element={<Publications/>} />
+            <Route path = "/Services" element={<Services/>} />
 
-        <Routes>
-          <Route path = "/" element={<Home/>} exact />
-          <Route path = "/Home" element = {<Home/>}/>
-          <Route path = "/Biography" element={<Biography/>} />
-          <Route path = "/Contact" element={<Contact/>} />
-          <Route path = "/Publications" element={<Publications/>} />
-          <Route path = "/Services" element={<Services/>} />
-
-          {/*All Subpages*/}
-          <Route path = "/BusDev" element ={<BusDev/>}/>
-          <Route path = "/ContROIS" element ={<ContROIS/>}/>
-          <Route path = "/ExpDesInt" element ={<ExpDesInt/>}/>
-          <Route path = "/LifeScSaaS" element ={<LifeScSaaS/>}/>
-          <Route path = "/ToxSD" element ={<ToxSD/>}/>
-        </Routes>
-
-        <Footer/>
-
+            {/*All Subpages*/}
+            <Route path = "/BusDev" element ={<BusDev/>}/>
+            <Route path = "/ContROIS" element ={<ContROIS/>}/>
+            <Route path = "/ExpDesInt" element ={<ExpDesInt/>}/>
+            <Route path = "/LifeScSaaS" element ={<LifeScSaaS/>}/>
+            <Route path = "/ToxSD" element ={<ToxSD/>}/>
+          </Routes>
+          <Footer/>
         </section>
-
       </div>
     </Router>
   );
