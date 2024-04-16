@@ -105,6 +105,7 @@
 .busheader{
     font-size: 40px;
     text-decoration: underline;
+    color: #142a46;
 }
 
 .busheaderright{
@@ -120,7 +121,7 @@
 }
 
 .busright{
-    margin-left: 50%;
+    margin-left: 45%;
     padding-top: 40px;
     font-size: 20px;
 }
