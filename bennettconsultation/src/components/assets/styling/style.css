@@ -105,7 +105,8 @@
 .busheader{
     font-size: 40px;
     text-decoration: underline;
-    color: #142a46;
+    text-shadow: 3px 0px 10px #585858;
+    color: #182a5a;
 }
 
 .busheaderright{
