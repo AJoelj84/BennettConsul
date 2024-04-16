@@ -103,28 +103,29 @@
 }
 
 .busheader{
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: underline;
 }
 
 .busheaderright{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-decoration: underline;
+}
+
+.busleft{
+    margin-left: 15%;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.busright{
     margin-left: 50%;
+    padding-top: 40px;
+    font-size: 20px;
 }
 
-.servcard{
-    width: 40%;
-    height: 200px;
-    margin: 50px;
-    border-color: black;
-    border-style: ridge;
-    border-width: 8px;
-    text-align: center;
-    
-}
-
+/* Publications Styling */
 .card-container{
     margin-left: 10%;
 }
