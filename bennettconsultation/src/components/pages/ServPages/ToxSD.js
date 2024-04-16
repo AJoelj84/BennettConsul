@@ -1,12 +1,14 @@
+// Toxicology Study Design Page
+
 import React from 'react';
 import Services from '../Services';
+
 function ToxSD(){
     return(
-
-        
-        <div className='sedan-regular'>
-            <Services/>
-            <section className=' row row-cols-sm-2 g-3'>
+ 
+    <div className='sedan-regular'>
+        <Services/>
+        <section className=' row row-cols-sm-2 g-3'>
             <p className='busright'>
                 <h1 className='busheader'>Protocol Development</h1>
                 Design comprehensive toxicology study protocols tailored to specific client 
@@ -46,8 +48,8 @@ function ToxSD(){
                 outcomes and regulatory approval processes.
             </p>
 
-            </section>
-       </div>
+        </section>
+    </div>
     );
 }
 
