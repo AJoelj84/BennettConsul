@@ -9,11 +9,11 @@ function Navigation(){
 
         
         <div class="nav sedan-regular">
-           <Link to='/Home' class ='btn btn-outline-dark'>Home</Link>
-           <Link to='/Publications' class ='btn btn-outline-dark'>Publications</Link>
-           <Link to='/Services' class ='btn btn-outline-dark'>Services</Link>
-           <Link to='/Contact' class ='btn btn-outline-dark'>Contact</Link>
-           <Link to='/Biography' class ='btn btn-outline-dark'>Biography</Link>
+           <Link to='/Home' class ='btn custombtn'>&#127960; Home</Link>
+           <Link to='/Publications' class ='btn custombtn'>&#128366; Publications</Link>
+           <Link to='/Services' class ='btn custombtn'>&#128394; Services</Link>
+           <Link to='/Contact' class ='btn custombtn'>&#128386; Contact</Link>
+           <Link to='/Biography' class ='btn custombtn'>&#127966; Biography</Link>
         </div>
     );
 }
