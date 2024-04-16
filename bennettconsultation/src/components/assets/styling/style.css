@@ -39,6 +39,13 @@
     color: black;
 }
 
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
 /* Publication Page Link Control */
 .publicationleft {
     text-align: center;
@@ -123,7 +130,7 @@
 
 .busright{
     margin-left: 40%;
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 20px;
 }
 
@@ -164,7 +171,7 @@
     width: 70%;
 }
 
-/* Services Underline button control */
+/* Services Underline button control Testing*/
 .button{
     background:transparent;
     border: none;
@@ -208,7 +215,7 @@
 
 
 
-/* CSS */
+/* Testing button Below */
 .button-30 {
   padding-bottom: 6px;
   align-items: center;
@@ -216,7 +223,7 @@
   background-color: #7094c0;
   border-radius: 4px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#78787a 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 1) 0 1px 3px,rgba(45, 35, 66, 0.3) 0 7px 13px 2px,#78787a 0 -3px 0 inset;
   box-sizing: border-box;
   color: #020202;
   cursor: pointer;
@@ -246,10 +253,11 @@
 }
 
 .button-30:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-  color: #D6D6E7;
-}
+    box-shadow: rgba(45, 35, 66, 0.5) 0 6px 12px, rgba(45, 35, 66, 0.4) 0 10px 20px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+    color: #D6D6E7;
+  }
+  
 
 .button-30:active {
   box-shadow: #D6D6E7 0 3px 7px inset;

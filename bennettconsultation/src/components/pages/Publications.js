@@ -10,7 +10,7 @@ import MALP from '../assets/images/maryannliebertpublishers.jpg';
 
 function Publications() {
     return (
-        <div className="sedan-regular">
+        <div className="bebas-neue-regular">
             <div className="row">
                 <div className="col-md-6">
                     <a className='link card-body' href="https://www.nature.com/articles/s41467-020-17254-w">
