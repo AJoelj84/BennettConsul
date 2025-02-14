@@ -5,7 +5,7 @@ import React from 'react';
 function Home(){
     return(
         <div class = 'home'>
-            HOME hljaseodfjoiasjhdfopashdpf
+            HOME PAGE RESERVED
         </div>
     );
 }
